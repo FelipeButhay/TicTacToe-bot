@@ -5,8 +5,8 @@ import tinline_datareader as dr
 
 import tkinter as tk
 resolution_screen = tk.Tk()
-sx = int(resolution_screen.winfo_screenwidth()*.7)
-sy = int(resolution_screen.winfo_screenheight()*.7)
+sx = int(resolution_screen.winfo_screenwidth()*1)
+sy = int(resolution_screen.winfo_screenheight()*1)
     
 pygame.init()
 clock = pygame.time.Clock()
