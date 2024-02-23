@@ -1,6 +1,6 @@
 import pygame
 import random
-import tinline_bot as bot
+# import tinline_bot as bot
 import tinline_datareader as dr
 
 import tkinter as tk
