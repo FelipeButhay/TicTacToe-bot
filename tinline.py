@@ -1,4 +1,5 @@
 import pygame
+import random
 import tinline_bot as bot
 import tinline_datareader as dr
 
@@ -24,7 +25,7 @@ def symb(txt, x, y, size, colour):
     rect = img.get_rect(center = (x,y))
     screen.blit(img, rect)
 
-turn = 0
+turn = random.randint(0,1)
 board = [[2 for y in range(3)] for x in range(3)]
 wins = 3
 u = int(sy/6)
